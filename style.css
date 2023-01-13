@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    min-height: 100vh;
+    background-image: 
+        radial-gradient(at 81% 36%, hsla(199, 98%, 68%, 1) 0px, transparent 50%),
+        radial-gradient(at 61% 70%, hsla(191, 62%, 70%, 1) 0px, transparent 50%),
+        radial-gradient(at 62% 99%, hsla(284, 98%, 68%, 1) 0px, transparent 50%),
+        radial-gradient(at 21% 31%, hsla(275, 65%, 69%, 1) 0px, transparent 50%),
+        radial-gradient(at 33% 24%, hsla(223, 83%, 79%, 1) 0px, transparent 50%),
+        radial-gradient(at 27% 78%, hsla(162, 78%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 21% 14%, hsla(324, 84%, 60%, 1) 0px, transparent 50%);
+}
+
+h1 {
+    padding: 30px 0 8px;
+    position: relative;
+    color: white;
+  }
+  
+h1::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    width: 300px;
+    height: 35px;
+    transform: skew(-12deg) translateX(-50%);
+    background: rgba(40, 37, 43, 0.877);
+    z-index: -1;
+}
